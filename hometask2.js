@@ -1,5 +1,5 @@
 var input = prompt("Введіть кількість років", "18");
-var number = parseInt(input);
+var number = Number(input);
 
 if (!isNaN(number) && number >= 0) {
     var word;
